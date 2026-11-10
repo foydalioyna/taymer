@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOCUS TAB</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header><a class="logo" href="#">FOCUS<span>.</span></a><button id="themeBtn">☀️</button></header>
+<main>
+<section class="hero"><p class="eyebrow">YOUR PERSONAL DASHBOARD</p><h1>Stay focused.<br><span>Achieve more.</span></h1><p class="muted">Everything you need, all in one place.</p></section>
+<section class="clock panel"><p class="eyebrow">LOCAL TIME</p><h2 id="clock">00:00:00</h2><p id="date" class="muted"></p></section>
+<section class="grid">
+<article class="panel"><h3>⏱ Focus timer</h3><div class="modes"><button class="mode active" data-min="25">Focus</button><button class="mode" data-min="5">Short break</button><button class="mode" data-min="15">Long break</button></div><div id="timer">25:00</div><div class="actions"><button id="startBtn">Start</button><button id="pauseBtn">Pause</button><button id="resetBtn">Reset</button></div></article>
+<article class="panel"><h3>✓ My tasks</h3><form id="taskForm"><input id="taskInput" placeholder="Add a new task..." maxlength="100"><button type="submit">+</button></form><ul id="taskList"></ul><p id="emptyState" class="muted">Your tasks will appear here.</p></article>
+<article class="panel"><h3>✎ Quick notes</h3><textarea id="notes" placeholder="Write your ideas here..."></textarea><p class="muted" id="saveStatus">Auto-saved on this device</p></article>
+<article class="panel"><h3>↗ Quick access</h3><div class="links"><a href="https://google.com" target="_blank" rel="noopener">Google ↗</a><a href="https://youtube.com" target="_blank" rel="noopener">YouTube ↗</a><a href="https://github.com" target="_blank" rel="noopener">GitHub ↗</a><a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT ↗</a></div></article>
+</section>
+<section class="panel quote"><p class="eyebrow">DAILY MOTIVATION</p><h3 id="quote">Small steps every day lead to big results.</h3></section>
+</main>
+<footer>FOCUS TAB © 2026 · Designed for productivity</footer>
+<script src="./script.js"></script>
+</body></html>
